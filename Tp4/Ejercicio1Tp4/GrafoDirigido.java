@@ -1,4 +1,4 @@
-package Ejercicio1Tp4;
+package Tp4.Ejercicio1Tp4;
 
 import java.util.ArrayList;
 import java.util.Iterator;

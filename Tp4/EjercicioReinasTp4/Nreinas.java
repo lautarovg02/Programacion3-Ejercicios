@@ -1,4 +1,4 @@
-package EjercicioReinasTp4;
+package Tp4.EjercicioReinasTp4;
 
 public class Nreinas {
 

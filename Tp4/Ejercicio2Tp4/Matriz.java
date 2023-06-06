@@ -1,4 +1,6 @@
-package Ejercicio2Tp4;
+package Tp4.Ejercicio2Tp4;
+
+import Tp4.Ejercicio3Tp4.Estado;
 
 import java.util.Iterator;
 
@@ -45,9 +47,10 @@ public class Backtracking {
                         // agregamos a la posible solucion
                         estado.getSolucionActual().add(sig); // agrega sig a la solucion y suma a costo el valor del casillero.
                         estado.setCasillero(sig);// Actualizamos el casillero al sig
-                        if(estado.getSolucionActual().costo() < this.mejorSolucion.costo()) {
-                            bakcktracking(estado);
-                        }
+
+                        if(estado.getSolucionActual().costo() < this.mejorSolucion.costo())
+                            backtracking(estado);
+
                         estado.getSolucionActual().remove(sig);// luego de volver del estado lo borramos
                     }
                 }
