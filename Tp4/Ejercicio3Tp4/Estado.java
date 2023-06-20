@@ -1,9 +1,8 @@
 package Tp4.Ejercicio3Tp4;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import Tp4.Ejercicio2Tp4.Casillero;
+
+import java.util.*;
 
 public class Estado {
 
@@ -43,5 +42,18 @@ public class Estado {
 
     public int getPosActual() {
         return 0;
+    }
+
+    public void setCasillero(Casillero casilleroOrigen) {
+    }
+
+    public Calendar getSolucionActual() {
+        return null;
+
+    }
+
+    public Object getCasillero() {
+        return null;
+
     }
 }

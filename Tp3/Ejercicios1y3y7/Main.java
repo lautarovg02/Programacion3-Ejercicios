@@ -1,6 +1,6 @@
-package Ejercicios1y3y7;
+package Tp3.Ejercicios1y3y7;
 
-import Ejercicio2.ServicioCaminos;
+import Tp3.Ejercicio2.ServicioCaminos;
 
 /*
 *Ejercicio 1.
@@ -29,6 +29,8 @@ public class Main {
         grafoDirigido.agregarArco(4, 5, " cuatro + siete = siete");
         grafoDirigido.agregarArco(4, 6, " cuatro + siete = siete");
         grafoDirigido.agregarArco(4, 1, " cuatro + uno = siete");
+
+
 
         //--------------------------Probando Metodos--------------------------//
 

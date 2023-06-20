@@ -1,16 +1,12 @@
-package Ejercicio5;
+package Tp3.Ejercicio5;
 
-import Ejercicios1y3y7.Grafo;
+import Tp3.Ejercicios1y3y7.Grafo;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 
-/*
- *Ejercicio 5.
- *Escriba un algoritmo que dado un grafo G y un vértice v de dicho grafo, devuelva una lista
- *con todos los vértices a partir de los cuales exista un camino en G que termine en v.
- */
+
 
 
 public class VerticesConCaminoA {
@@ -34,6 +30,11 @@ public class VerticesConCaminoA {
         return this.verticesOptimos;
     }
 
+    /*
+     *Ejercicio 5.
+     *Escriba un algoritmo que dado un grafo G y un vértice v de dicho grafo, devuelva una lista
+     *con todos los vértices a partir de los cuales exista un camino en G que termine en v.
+     */
     private void obtenerVerticesA(ArrayList<Integer> caminoParcial, int inicio) {
         Iterator<Integer> adyacentes = this.grafo.obtenerAdyacentes(inicio);
         while (adyacentes.hasNext()) {

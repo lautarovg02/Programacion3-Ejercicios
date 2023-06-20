@@ -1,6 +1,6 @@
-package Ejercicio2;
+package Tp3.Ejercicio2;
 
-import Ejercicios1y3y7.Grafo;
+import Tp3.Ejercicios1y3y7.Grafo;
 
 import java.util.*;
 

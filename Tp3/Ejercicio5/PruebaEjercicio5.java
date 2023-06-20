@@ -1,6 +1,6 @@
-package Ejercicio5;
+package Tp3.Ejercicio5;
 
-import Ejercicios1y3y7.GrafoDirigido;
+import Tp3.Ejercicios1y3y7.GrafoDirigido;
 
 public class PruebaEjercicio5 {
     public static void main(String[] args) {

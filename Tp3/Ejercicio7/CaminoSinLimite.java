@@ -1,7 +1,7 @@
-package Ejercicio7;
+package Tp3.Ejercicio7;
 
-import Ejercicios1y3y7.Arco;
-import Ejercicios1y3y7.Grafo;
+import Tp3.Ejercicios1y3y7.Arco;
+import Tp3.Ejercicios1y3y7.Grafo;
 
 import java.util.ArrayList;
 import java.util.Iterator;

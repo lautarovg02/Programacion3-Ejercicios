@@ -1,6 +1,6 @@
-package Ejercicio2;
+package Tp3.Ejercicio2;
 
-import Ejercicios1y3y7.Grafo;
+import Tp3.Ejercicios1y3y7.Grafo;
 
 import java.util.*;
 
@@ -38,7 +38,6 @@ public class ServicioDFS {
             int x = adyacentes.next();
             if(this.vertices.get(x).equals("blanco")){
                 aux.addAll(this.dfs_visit(x));
-            }else if(this.vertices.get(v).equals("amarillo")){
             }
         }
         return aux;

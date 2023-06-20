@@ -9,7 +9,7 @@ public class Nreinas {
     }
 
         public Tablero backtracking(Tablero tablero, int reina){
-                if(reina > tablero.tamanio()) {//Condicion de corte
+                if(reina > tablero.tamanio()) {//Condicion de corte // cant de reinas para el tablero
                     if(!tablero.hayConflicto()) {//condicion solucion
                         return tablero;
                     }
@@ -25,7 +25,7 @@ public class Nreinas {
                             Tablero resultado = backtracking(tablero, reina); //
                             if (resultado != null)
                                 return resultado;
-                        }// seshgo la decision
+                        }// desago la decision
                         reina--;
                         tablero.sacarReina(reina,columna);
                     }

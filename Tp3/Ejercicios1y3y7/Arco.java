@@ -1,4 +1,4 @@
-package Ejercicios1y3y7;
+package Tp3.Ejercicios1y3y7;
 
 /*
  * La clase arco representa un arco del grafo. Contiene un vertice origen, un vertice destino y una etiqueta.

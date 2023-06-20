@@ -13,9 +13,10 @@ public class Backtracking {
 
     public Backtracking(ArrayList<Integer> conjunto, int sumaExitosa) {
         this.conjunto = conjunto;
-        this.sumaExitosa = sumaExitosa;
+        this.sumaExitosa = sumaExitosa;// m
         this.soluciones = new ArrayList<>();
     }
+
 
 
     public void back(Estado estado) {// el estado tiene el camino parcial, la posActual en el arreglo de conjunto y la suma parcial
@@ -52,7 +53,7 @@ public class Backtracking {
         int posActual = 0;
         int sumaParcial = 0;
         Estado estadoInicial = new Estado(posActual,sumaParcial);
-
+        this.back(estadoInicial);
         return this.soluciones;
     }
 

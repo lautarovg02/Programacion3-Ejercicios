@@ -1,7 +1,7 @@
-package Ejercicio2;
+package Tp3.Ejercicio2;
 
-import Ejercicios1y3y7.Grafo;
-import Ejercicios1y3y7.GrafoDirigido;
+import Tp3.Ejercicios1y3y7.Grafo;
+import Tp3.Ejercicios1y3y7.GrafoDirigido;
 
 /*
 * Ejercicio 2.
@@ -15,7 +15,7 @@ public class pruebaServicio {
         Grafo<Integer> grafoDirigido = new GrafoDirigido<>();
         ServicioDFS dfs = new ServicioDFS(grafoDirigido);
         ServicioBFS bfs = new ServicioBFS(grafoDirigido);
-        ServicioCaminos caminos = new ServicioCaminos(grafoDirigido,1,6,4);
+        ServicioCaminos caminos = new ServicioCaminos(grafoDirigido,1,1,100);
 
         //*Agregando Vertices
         grafoDirigido.agregarVertice(1);
@@ -44,7 +44,7 @@ public class pruebaServicio {
         grafoDirigido.agregarArco(6, 10, 16);
 
 //        System.out.println("dfs "+dfs.dfsForest());
-        System.out.println("bfs " +bfs.bfsForest());
-//        System.out.println(caminos.caminos());
+//        System.out.println("bfs " +bfs.bfsForest());
+        System.out.println(caminos.caminos());
     }
 }

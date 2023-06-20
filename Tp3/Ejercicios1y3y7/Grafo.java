@@ -1,4 +1,4 @@
-package Ejercicios1y3y7;
+package Tp3.Ejercicios1y3y7;
 
 import java.util.Iterator;
 
